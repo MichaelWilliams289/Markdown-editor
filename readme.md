@@ -1,0 +1,2 @@
+# Marky
+marky is markdown is a web based editor for obisidian which is note taking app that use markdown  and the guide for how add file to obsidian after you finsh you can download the markdown and put it in your valut foloder for obsidian

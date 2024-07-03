@@ -3,18 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Marky</title>
+    <title>Markdown Editor</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 </head>
 <body>
-    <h1>Welcome to Marky a Web based markdown editor for obsidian which is note taking app</h1>
-    <div class="app">
-        <div class="toolbar">Markdown Editor</div>
-        <div class="container">
-            <textarea id="markdown-input" placeholder="Write your markdown here..."></textarea>
-            <div id="markdown-preview"></div>
-        </div>
-        <div class="status-bar">Status: Ready</div>
+    <div class="start-screen" id="start-screen">
+        <button id="start-button">Start</button>
     </div>
+    <div class="container" id="editor-container" style="display: none;">
+        <textarea id="markdown-input" class="editor" placeholder="Write your markdown here..."></textarea>
+        <div id="markdown-preview" class="preview"></div>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
